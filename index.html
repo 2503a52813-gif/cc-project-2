@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Campus Lost & Found | Smart Portal</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <div class="nav">
+        <div class="logo">
+            <div class="logo-icon">⌕</div>
+            <div>
+                <h2>Campus Lost & Found</h2>
+                <small>SMART PORTAL</small>
+            </div>
+        </div>
+
+        <div class="nav-actions">
+            <button class="icon-btn" id="themeBtn" title="Toggle dark mode">◐</button>
+            <div class="menu-wrap">
+                <button class="icon-btn" id="menuBtn" title="Select role">☰</button>
+                <div class="dropdown" id="roleMenu" hidden>
+                    <button data-role="Student">🎓 Student</button>
+                    <button data-role="Admin">🛡️ Admin</button>
+                    <button data-role="Staff & Others">👥 Staff & Others</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+<div class="panel" id="content"></div>
+</main>
+
+<footer>
+    Campus Lost & Found Smart Portal · Helping your campus find what's lost.
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
